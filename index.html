@@ -14,3 +14,44 @@ document.getElementById("demo").innerHTML = Math.random();
 
 </body>
 </html>
+<html>
+
+<head>
+
+<title>(Type a title for your page here)</title>
+
+<script type="text/javascript"> 
+
+function generate(){
+
+var my_num=Math.random();
+
+document.f1.t1.value=(my_num*11);
+
+document.f1.t2.value=Math.floor(my_num*11);
+
+}
+
+</script>
+
+</head>
+
+<body >
+
+<form name=f1>
+
+Random number after multiplying with 11
+
+<input type=text name=t1>
+
+<br>After taking the floor value
+
+<input type=text name=t2>
+
+<input type=button value='Display' onClick='generate()';>
+
+</form>
+
+</body>
+
+</html>
